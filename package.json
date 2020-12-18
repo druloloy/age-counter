@@ -1,0 +1,24 @@
+{
+  "name": "age-counter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "options.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel index.html",
+    "build": "parcel build index.html --public-url ./",
+    "deploy": "push-dir --dir=dist --branch=main --cleanup --verbose"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/druloloy/AgeCounter.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "luxon": "^1.25.0",
+    "parcel-bundler": "^1.12.4",
+    "push-dir": "^0.4.1"
+  }
+}
